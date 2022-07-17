@@ -1,32 +1,39 @@
-*{
-    box-sizing: border-box;
-    /* border: 2px solid red; */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-:root{
-    --primary-100:rgb(215, 107, 0)
-
-}
-.font-16{
-    font-size: 1.5rem;
+:root {
+  --primary-100: rgb(215, 107, 0);
 }
 
-body{
-    scroll-behavior: smooth;
-    font-family:Arial, Helvetica, sans-serif;
+a {
+  text-decoration: none;
 }
-.wrapper{
-    background-color: #0E1924;
+
+.font-weight-bold {
+  font-weight: bold;
 }
-.learn{
-    padding-top: 10em;
+.font-16 {
+  font-size: 1.5rem !important;
 }
-.learn, p{
-    font-size: 20px;
+.font-18 {
+  font-size: 2rem !important;
+}
+
+.wrapper {
+  background-color: #0e1924;
+}
+.learn {
+  padding-top: 6em;
+}
+.learn,
+p {
+  font-size: 20px;
 }
 /* @media screen and (max-width: 750px) {
     .mat{
@@ -35,337 +42,343 @@ body{
          background-repeat: no-repeat;
     }
 } */
-.come{
-    width: 343.71px;
-    height: 50px;
-    border-radius: 50px;
-    background-color: #425266;
-    color: white;
+.come {
+  width: 343.71px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #425266;
+  color: white;
 }
-.get{
-    color: white;
-    background-color: var(--primary-100) ;
-    /* padding: 20px; */
-    width: 230px;
-    height: 60px;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 15px;
-    border-radius: 10px;
-    text-decoration: none;
+.get {
+  color: white;
+  background-color: var(--primary-100);
+  /* padding: 20px; */
+  width: 230px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 10px;
+  text-decoration: none;
 }
-.get:hover{
-    background-color: black;
-    transition: all 200ms ease-in-out;
+.get:hover {
+  background-color: black;
+  transition: all 200ms ease-in-out;
 }
-.box{
-    background-color: rgb(253, 211, 103);
-    border-radius: 10px;
+.box {
+  background-color: rgb(253, 211, 103);
+  border-radius: 10px;
 }
-.trend{
-    width: 98px;
-    height: 35px;
-    background-color: var(--primary-100);
-    color: white;
-    border-radius: 17px;
-    padding-top: 5px;
-    text-align: center;
+.trend {
+  width: 98px;
+  height: 35px;
+  background-color: var(--primary-100);
+  color: white;
+  border-radius: 17px;
+  padding-top: 5px;
+  text-align: center;
 }
-.but{
-    background-color: var(--primary-100);
-    border-radius: 7px;
-    color: white;
-    border: none;
+.but {
+  background-color: var(--primary-100);
+  border-radius: 7px;
+  color: white;
+  border: none;
 }
-.digital{
-    background-color: #2d33b3;
-    margin-top: 30px;
-    margin-left: 5px;
-    border-radius: 10px;
+.course-card {
+  margin-block: 10px;
+  border-radius: 10px;
 }
-.frontend{
-    background-color: var(--primary-100);
-    margin-top: 30px;
-    margin-left: 5px;
-    border-radius: 10px;
+.digital {
+  background-color: #2d33b3;
 }
-.backend{
-    background-color: #00c69a;
-    margin-top: 30px;
-    margin-left: 5px;
-    border-radius: 10px;
+.frontend {
+  background-color: var(--primary-100);
 }
-.ui-ux{
-    background-color: #425266;
-    margin-top: 30px;
-    margin-left: 5px;
-    border-radius: 10px;
+.backend {
+  background-color: #00c69a;
 }
-.mobile-app{
-    background-color: #62c3ff;
-    margin-top: 30px;
-    margin-left: 5px;
-    border-radius: 10px;
+.ui-ux {
+  background-color: #425266;
 }
-.coding-kids{
-    background-color: #6633cc;
-    margin-top: 30px;
-    margin-left: 5px;
-    border-radius: 10px;
+.mobile-app {
+  background-color: #62c3ff;
 }
-.goes{
-    position: relative;
-    background-image: url(image/dark.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 75%;
-    height: 550px;
-    margin: auto;
-    border-radius: 1rem;
-    box-sizing: border-box;
+.coding-kids {
+  background-color: #6633cc;
 }
-.opacity{
-    background: linear-gradient(rgb(102, 0, 204, 0.7), rgb(153, 51, 255,0.7), rgb(102, 102, 255,0.7));
-    width: 100%;
-    height: 550px;
-    position: absolute;
-    border-radius: 1rem;
+.goes {
+  background: linear-gradient(
+      rgb(102, 0, 204, 0.7),
+      rgb(153, 51, 255, 0.7),
+      rgb(102, 102, 255, 0.7)
+    ),
+    url(image/dark.webp) no-repeat center center / cover;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
 }
-.side{
-    background-color: white;
-    width: 38%;
-    height: 530px;
-    position: absolute;
-    border-radius: 1rem;
-    top: 6rem;
-    right: 2.5rem;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
+
+.mt-10 {
+  margin-top: 120px;
 }
-.picture{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url(image/WhatsApp\ Image\ 2022-07-12\ at\ 12.17.56\ PM.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    margin-top: 25px;
+
+/* //small phones */
+@media (min-width: 576px) {
+  .goes {
+    height: 100%;
+  }
+  .mt-10 {
+    margin-top: 50px;
+  }
 }
-@media screen and (max-width: 850px) {
-    .goes{
-        position: relative;
-        background-image: url(image/dark.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 85%;
-        height: 800px;
-        margin: auto;
-        border-radius: 1rem;
-        box-sizing: border-box;
-    }
-    .opacity{
-        background: linear-gradient(rgb(102, 0, 204, 0.7), rgb(153, 51, 255,0.7), rgb(102, 102, 255,0.7));
-        width: 100%;
-        height: 800px;
-        position: absolute;
-        border-radius: 1rem;
-    }
-    .side{
-        background-color: white;
-        width: 100%;
-        height: 530px;
-        position: relative;
-        border-radius: 1rem;
-        /* top: 6rem;
-        right: 2.5rem; */
-        box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
-        margin: 10px 40px 80px 40px;
-        /* margin-bottom: 50rem;
-        margin-top: 5rem; */
-    }
-    .picture{
-        margin-top: 40px;
-    }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .goes {
+    height: 620px;
+    line-height: 20px;
+  }
 }
-.purple{
-    color: #9966ff;
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .goes {
+    height: 620px;
+  }
 }
-.now{
-    width: 7em;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid white;
-    background-color: none;
-    color: white;
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .goes {
+    height: 570px;
+  }
 }
-.raw{
-    /* width: 300px ;
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .goes {
+    height: 500px;
+  }
+}
+
+.side {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.8);
+  color: black;
+  text-align: center;
+}
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(image/WhatsApp\ Image\ 2022-07-12\ at\ 12.17.56\ PM.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.course-card-img {
+  height: 150px;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.purple {
+  color: #9966ff;
+}
+.now {
+  width: 7em;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: none;
+  color: white;
+}
+.raw {
+  /* width: 300px ;
     height: 150px; */
-    /* padding: 10px; */
-    border-radius: 10px;
-    background-color: #0A121A;
+  /* padding: 10px; */
+  border-radius: 10px;
+  background-color: #0a121a;
 }
-.view{
-    width: 150px;
-    height: 50px;
-    background-color: #1e354d;
-    border-radius: 7px;
-    color: white;
-    border: none;
-    padding-top: 10px;
-    text-decoration: none;
-    text-align: center;
-    /* margin-top: 50px; */
+.view {
+  width: 150px;
+  height: 50px;
+  background-color: #1e354d;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  /* margin-top: 50px; */
 }
-.coll{
-    background-color: #425266;
-    color: white;
-    border-radius: 10px;
+.coll {
+  background-color: #425266;
+  color: white;
+  border-radius: 10px;
 }
-.discount{
-    background-color: #f9bb2b;
-    border-radius: 10px;
+.discount {
+  background-color: #f9bb2b;
+  border-radius: 10px;
 }
-.trend{
-    width: 98px;
-    height: 35px;
-    background-color: #000000;
-    color: white;
-    border-radius: 17px;
-    padding-top: 5px;
-    text-align: center;
+.trend {
+  width: 98px;
+  height: 35px;
+  background-color: #000000;
+  color: white;
+  border-radius: 17px;
+  padding-top: 5px;
+  text-align: center;
 }
-.build{
-    background-color:#00cc76 ;
-    color: black;
-    border-radius: 10px;
+.build {
+  background-color: #00cc76;
+  color: black;
+  border-radius: 10px;
 }
-.builde{
-    background-color:#fff3aa ;
-    color: black;
-    border-radius: 10px;
-    overflow: hidden;
+.builde {
+  background-color: #fff3aa;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
 }
-.view2{
-    width: 150px;
-    height: 50px;
-    background-color: #6633cc;
-    border-radius: 7px;
-    color: white;
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 10px;
+.view2 {
+  width: 150px;
+  height: 50px;
+  background-color: #6633cc;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
 }
-.boxe{
-    background-color: #62c3ff;
-    border-radius: 10px;
+.boxe {
+  background-color: #62c3ff;
+  border-radius: 10px;
 }
-.check{
-    width: 250px;
-    height: 70px;
-    background-color: #6633cc;
-    border-radius: 7px;
-    color: white;
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 20px;
+.check {
+  width: 250px;
+  height: 70px;
+  background-color: #6633cc;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
 }
-.hub{
-    background-color: #ffffffe6;
+.hub {
+  background-color: #999;
+  border-radius: 10px;
 }
-.sponsor{
-    width: 180px;
-    height: 100px;
-    padding: 2px 15px ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sponsor {
+  max-width: 140px;
+  height: 100px;
+  padding: 2px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.roll{
-    border-radius: 10px;
-    background-color: #293340;
-    min-height: 230px;
-    color: white;
+.roll {
+  border-radius: 10px;
+  background-color: #293340;
+  min-height: 230px;
+  color: white;
 }
-.testimony-box{
-    height: 70px;
-    width: 70px;
-    overflow: hidden;
-    border-radius: 10px;
+.testimony-box {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.text-grey{
-    color: #cccccc;
+.text-grey {
+  color: #cccccc;
 }
-.more{
-    text-decoration: none;
-    color: white;
+.more {
+  text-decoration: none;
+  color: white;
 }
-.more:hover{
-    color: purple;
+.more:hover {
+  color: purple;
 }
-.blac{
-    background-color: #10141a;
+.footer {
+  background-color: #10141a;
 }
-.app{
-    color: white;
-    font-size: 15px;
+.app {
+  color: white;
+  font-size: 15px;
 }
-.app2{
-    text-decoration: none;
+.app2 {
+  text-decoration: none;
 }
-.log{
-    background-color: rgb(17, 20, 39);
-    color: white;
-    margin: auto;
-    text-align: center;
+.log {
+  background-color: rgb(17, 20, 39);
+  color: white;
+  margin: auto;
+  text-align: center;
 }
-form{
-    padding: 20px;
-    box-sizing: border-box;
+form {
+  padding: 20px;
+  box-sizing: border-box;
 }
-.count{
-    box-sizing: border-box;
-    padding: 20px;
-    width: 30%;
-    height: 900px;
-    margin: auto;
+.count {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 30%;
+  height: 900px;
+  margin: auto;
 }
-.count p{
-    font-size: 16px;
+.count p {
+  font-size: 16px;
 }
-input[type=email], input[type=password]{
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    background-color: rgb(17, 20, 39);
-    color: white;
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(17, 20, 39);
+  color: white;
 }
-input[type=submit]{
-    width: 100%;
-    height: 60px;
-    border-radius: 5px;
-    margin-top: 30px;
-    border: 1px solid white;
-    background-color: rgb(17, 20, 39);
-    color: white;
+input[type="submit"] {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: 1px solid white;
+  background-color: rgb(17, 20, 39);
+  color: white;
 }
-.continue{
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    padding-top: 15px;
+.continue {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  padding-top: 15px;
 }
-.apple{
-    width: 100%;
-    height: 50px;
-    background-color: grey;
-    border-radius: 5px;
-    color: white;
-    padding-top: 15px;
-    text-decoration: none;
+.apple {
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.mt-6 {
+  margin-top: 100px;
+}
+
+.my-6 {
+  margin-block: 100px;
+}
+
+.text-justify {
+  text-align: justify;
 }
