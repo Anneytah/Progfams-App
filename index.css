@@ -35,13 +35,7 @@ a {
 p {
   font-size: 20px;
 }
-/* @media screen and (max-width: 750px) {
-    .mat{
-         background-image: url(image/illustration-intro.png);
-         background-size: cover;
-         background-repeat: no-repeat;
-    }
-} */
+
 .come {
   width: 343.71px;
   height: 50px;
@@ -52,7 +46,6 @@ p {
 .get {
   color: white;
   background-color: var(--primary-100);
-  /* padding: 20px; */
   width: 230px;
   height: 60px;
   font-size: 20px;
@@ -362,7 +355,14 @@ form {
 
 .card-blog {
   border-radius: 0.28571429rem;
-  box-shadow: 3px 2px 4px 1px var(--primary-100);
+  box-shadow: 3px 3px 2px #444;
   background-color: transparent;
   border: 1px solid var(--primary-100);
+}
+.card-blog .card-footer {
+  border-color: var(--primary-100) !important;
+}
+
+.auth-input {
+  background-color: transparent;
 }
